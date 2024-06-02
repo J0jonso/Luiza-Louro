@@ -1,0 +1,108 @@
+body,html {
+    /*  Tirando Scroll horizontal */
+    overflow-x: hidden;
+
+    /* Largura e Altura / tirando margin e padding */
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    /* Cor do fundo */
+    background-color: rgb(5, 5, 5);
+    background-image: url("Images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+/* Imagem */
+.imagem {
+    width: 15%;
+    height: 15%;
+
+}
+.content {
+    /* Cores */
+    color : rgb(224, 183, 0);
+
+    /* FLEXBOX  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /*  Ajustando Posição */
+    position: relative;
+
+    top: 20vh;
+}
+/* Nome  */
+
+.dancing-script-name {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 4rem;
+  font-style: normal;
+  text-align: center;
+
+  position: relative;
+  top: 5vh;
+}
+.text1 {
+    /* Fonte  */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+.text2 {
+     /*   Fonte  */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+
+    /* Borda */
+    border: 2px rgb(224, 183, 0) solid;
+    border-radius: 24px;
+    padding: 24px;
+
+    background-color: black;
+    
+}
+/* Customizar a tag <a> */
+a {
+    color: #e0b700;
+    text-decoration: solid;
+
+}
+
+/* Convertendo o tamanho da fonte pra mobile */
+@media(max-width: 850px) {
+    .text1 {
+        margin: 4px;
+        font-size: 2rem;
+
+    }
+    .text2 {
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 2rem;
+        padding: 32px;
+    }
+    .dancing-script-name {
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-size: 4rem;
+        font-style: normal;
+      }
+    .imagem {
+        width: 70%;
+        height: 70%;
+    }
+}
