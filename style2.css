@@ -54,19 +54,6 @@ p {
     border-right-style: dotted;
 
 }
-.button {
-    width: 1%;
-    height: auto;
-    padding: 8px 18px 8px 18px;
-    border: 2px rgb(224, 183, 0) solid;
-    border-style: dotted;
-    border-radius: 12px;
-
-    position: relative;
-    bottom: 65vh;
-    left: 25vw;
-
-}
 @media (max-width: 850px) {
     .main {
         width: 60vw;

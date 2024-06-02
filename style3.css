@@ -57,14 +57,6 @@ h1 {
     bottom: 70vh;
 
 }
-.button {
-    width: 10%;
-    height: auto;
-    padding: 8px 18px 8px 18px;
-
-    position: relative;
-    top: -128vh;
-}
 @media (max-width: 850px) {
     img {
         width: 40%;
@@ -96,14 +88,6 @@ h1 {
         top: 3vh;
     
     } 
-    .button {
-        width: 48px;
-        height: 16px;
-    
-        position: relative;
-        top: -133vh;
-        left: 25vw;
-    }
     body,html {
         background-image: url("Images/bg\ mobile.png");
 
