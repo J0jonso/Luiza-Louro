@@ -45,8 +45,8 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     position: relative;
-    left: 38vw;
-    bottom: 70%;;
+    left: -1vw;
+    bottom: 2vh;
 
 }
 .about {
@@ -79,13 +79,13 @@ h1 {
         font-size: 3rem;
         position: relative;
         top: 75vh;
-        right: 6%;
+        left: -9vw;
     }
     .list {
         position: relative;
-        font-size: 14px;
-        left: 20vw;
-        top: 3vh;
+        font-size: 16px;
+        left: -20vw;
+        top: 70vh;
     
     } 
     body,html {

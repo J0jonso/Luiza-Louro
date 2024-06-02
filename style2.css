@@ -67,14 +67,6 @@ p {
         font-size: 2rem;
     
     }
-    .button {
-        width: 16px;
-        height: 32px;
-    
-        position: relative;
-        bottom: 50vh;
-        left: 20vw;
-    }
     .img {
         width: 100%;
         position: relative;
