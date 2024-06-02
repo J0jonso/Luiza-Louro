@@ -81,12 +81,16 @@ p {
     
     }
     .button {
+        width: 16px;
+        height: 32px;
     
-        width: 3%;
         position: relative;
         bottom: 50vh;
         left: 20vw;
-    
+    }
+    .img {
+        width: 100%;
+        position: relative;
     }
     body,html {
         background-image: url("Images/bg\ mobile.png");

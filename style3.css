@@ -58,7 +58,7 @@ h1 {
 
 }
 .button {
-    width: 1%;
+    width: 10%;
     height: auto;
     padding: 8px 18px 8px 18px;
 
@@ -97,21 +97,13 @@ h1 {
     
     } 
     .button {
-        width: 3%;
-        height: auto;
-        padding: 8px 18px 8px 18px;
+        width: 48px;
+        height: 16px;
     
         position: relative;
-        top: -65vh;
-        left: 12vw;
+        top: -133vh;
+        left: 25vw;
     }
-    a {
-        position: relative;
-        top: -70vh;
-        left: 18vw;
-
-    }
-
     body,html {
         background-image: url("Images/bg\ mobile.png");
 
