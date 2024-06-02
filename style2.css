@@ -88,5 +88,9 @@ p {
         left: 20vw;
     
     }
+    body,html {
+        background-image: url("Images/bg\ mobile.png");
+
+    }
     
 }

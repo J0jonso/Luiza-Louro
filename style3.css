@@ -102,7 +102,18 @@ h1 {
         padding: 8px 18px 8px 18px;
     
         position: relative;
-        top: -60vh;
+        top: -65vh;
         left: 12vw;
+    }
+    a {
+        position: relative;
+        top: -70vh;
+        left: 18vw;
+
+    }
+
+    body,html {
+        background-image: url("Images/bg\ mobile.png");
+
     }
 }
