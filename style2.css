@@ -61,10 +61,10 @@ p {
 
         left: 20vw;
 
-        font-size: 13px;
+        font-size: 1.5rem;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 4rem;
     
     }
     .img {
@@ -76,4 +76,26 @@ p {
 
     }
     
+}
+@media (max-width: 550px) {
+    h1 {
+        font-size: 3rem;
+    
+    }
+
+}
+@media (max-width: 500px) {
+    .main {
+        width: 60vw;
+        height: 60vh;
+
+        left: 20vw;
+
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 2rem;
+    
+    }
+
 }

@@ -13,17 +13,15 @@ body,html {
     background-repeat: no-repeat;
     background-size: cover;
 
+
 }
 img {
+    margin-top: 24px;
     width: 20%;
     height: auto;
     border: 2px rgb(224, 183, 0) solid;
     border-radius: 20px;
     border-style: dotted;
-    position: relative;
-    left: 15%;
-    top: 10vh;
-    padding: 5px;;
 }
 h1 {
     color:  rgb(224, 183, 0);
@@ -36,13 +34,12 @@ h1 {
 .text {
     color:  rgb(224, 183, 0);
     font-size: 16px;
-    position: relative;
-    right: 5vw;
 }
 .list {
     color: rgb(224, 183, 0);
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 
     position: relative;
     left: -1vw;
@@ -51,45 +48,39 @@ h1 {
 }
 .about {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
-    position: relative;
-    left: 40%;
-    bottom: 70vh;
 
 }
-@media (max-width: 850px) {
-    img {
-        width: 40%;
-        height: auto;
-        border: 2px rgb(224, 183, 0) solid;
-        border-radius: 20px;
-        border-style: dotted;
-        position: relative;
-        left: 30%;
-        top: 10vh;
-        padding: 5px;;
-    }
-    .text {
-        font-size: 14px;
-        position: relative;
-        top: 75vh;
-        right: 30%;
-    }
+@media (min-width: 768px) {
+
     h1 {
-        font-size: 3rem;
-        position: relative;
-        top: 75vh;
-        left: -9vw;
+        font-size: 4rem;
+
+    }
+    img {
+        width: 300px;
+        height: auto;
+
     }
     .list {
-        position: relative;
-        font-size: 16px;
-        left: -20vw;
-        top: 70vh;
-    
-    } 
-    body,html {
-        background-image: url("Images/bg\ mobile.png");
+        font-size: 2rem;
+
+    }
+    .text {
+        font-size: 2rem;
+
+    }
+}
+@media (max-width: 500px) {
+    img {
+        width: 200px;
+        height: auto;
 
     }
 }
